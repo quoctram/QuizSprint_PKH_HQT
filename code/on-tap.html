@@ -10,36 +10,15 @@
     <link rel="stylesheet" href="../reset.css">
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="./on-tap/on-tap.css">
-    <style>
-        @media only screen and (max-width:600px){
-            .clock {
-                background: black;
-                padding: 1rem;
-                box-shadow: 0rem 0rem 2rem magenta;
-                text-align: center;
-                width: 6rem;
-                height: 2.5rem;
-                border-radius: 10rem;
-                margin-top: -100.15vh;
-                margin-left: 12vw;
-            }
-            .time {
-                font-size: 1rem;
-                font-weight: bold;
-                color: aliceblue;
-            }
-            .date {
-                font-size: 0.6rem;
-                margin-top: 10px;
-                color: aquamarine;
-            }
-        }
-    </style>
     <title>Ôn tập</title>
 </head>
 <body>
     <h1 id="tieu-de">Ôn tập</h1>
     <div id="icon">
+        <div class="clock">
+            <div class="time" id="time">--:--:--</div>
+            <div class="date" id="date">--/--/----</div>
+        </div>
         <a href="../index.html" id="trang-chu"><i class="fa-solid fa-house"></i>Trang chủ</a>
         <a href="" id="on-tap"><i class="fa-solid fa-graduation-cap"></i>Ôn tập</a>
     </div>
@@ -50,10 +29,6 @@
         <a href="./tin-hoc/tinhoc.html" target="_blank"><input class="contain contain4" type="button" value="Tin học"></a>
         <a href="./dia-ly/dia-ly.html" target="_blank"><input class="contain contain5" type="button" value="Địa lý"></a>
         <a href="./gdktpt/gdktpl.html" target="_blank"><input class="contain contain6" type="button" value="Gdkt&pl"></a>
-    </div>
-    <div class="clock">
-        <div class="time" id="time">--:--:--</div>
-        <div class="date" id="date">--/--/----</div>
     </div>
     <script src="../dong-ho.js"></script>
 </body>

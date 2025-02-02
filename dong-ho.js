@@ -14,6 +14,8 @@ function updateClock() {
     // Cập nhật nội dung cho đồng hồ
     document.getElementById('time').textContent = `${hours}:${minutes}:${seconds}`;
     document.getElementById('date').textContent = `${day}/${month}/${year}`;
+    document.getElementById('time1').textContent = `${hours}:${minutes}:${seconds}`;
+    document.getElementById('date1').textContent = `${day}/${month}/${year}`;
 }
 
 // Cập nhật đồng hồ mỗi giây
