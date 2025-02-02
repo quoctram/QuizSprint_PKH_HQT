@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kablammo&family=Lobster&family=Moo+Lah+Lah&family=Rubik+Gemstones&family=Yesteryear&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>QuizSprint</title>
+</head>
+<body>
+    <video src="./tai_nguyen/videonen/video-nen.mp4" id="background-video" preload="auto" loop muted autoplay></video>
+    <video src="./tai_nguyen/videonen/video-nen-dt.mp4" id="background-video-dt" preload="auto" loop muted autoplay></video>
+    <!-- tạo tiêu đề -->
+    <h1 id="tieu-de">QuizSprint</h1>
+    <!-- icon trang chủ và ôn tập -->
+    <div id="icon">
+        <a href="" id="trang-chu"><i class="fa-solid fa-house"></i>Trang chủ</a>
+        <a href="./code/on-tap.html" id="on-tap"><i class="fa-solid fa-graduation-cap"></i>Ôn tập</a>
+    </div>
+    <!-- tạo các các ô trạng thái  -->
+    <div class="box box1">Ôn <br>tập <br>giữa <br>học <br>kì <br>2</div>
+    <div class="box box1_1">Ôn tập giữa học kì 2</div>
+    <div class="box box2">Môn</div>
+    <div class="box box3">Trạng thái</div>
+    <!-- tạo các môn học -->
+    <div class="box4">
+    <p class="p_0 p1">Tiếng Anh</p>
+    <p class="p_0 p2">Lịch sử</p>
+    <p class="p_0 p3">Vật lý</p>
+    <p class="p_0 p4">Tin học</p>
+    <p class="p_0 p5">Địa lý</p>
+    <p class="p_0 p6">Gdkt&pl</p>
+    </div>
+    <div class="box5">
+        <p class="p_1 p7">Chưa hoàn thành</p>
+        <p class="p_1 p8">Chưa hoàn thành</p>
+        <p class="p_1 p9">Chưa hoàn thành</p>
+        <p class="p_1 p10">Chưa hoàn thành</p>
+        <p class="p_1 p11">Chưa hoàn thành</p>
+        <p class="p_1 p12">Chưa hoàn thành</p>
+    </div>
+    <div class="clock">
+        <div class="time" id="time">--:--:--</div>
+        <div class="date" id="date">--/--/----</div>
+    </div>
+    <script src="dong-ho.js"></script>
+</body>
+</html>

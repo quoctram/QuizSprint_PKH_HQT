@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kablammo&family=Lobster&family=Moo+Lah+Lah&family=Rubik+Gemstones&family=Yesteryear&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./on-tap/on-tap.css">
+    <style>
+        @media only screen and (max-width:600px){
+            .clock {
+                background: black;
+                padding: 1rem;
+                box-shadow: 0rem 0rem 2rem magenta;
+                text-align: center;
+                width: 6rem;
+                height: 2.5rem;
+                border-radius: 10rem;
+                margin-top: -100.15vh;
+                margin-left: 12vw;
+            }
+            .time {
+                font-size: 1rem;
+                font-weight: bold;
+                color: aliceblue;
+            }
+            .date {
+                font-size: 0.6rem;
+                margin-top: 10px;
+                color: aquamarine;
+            }
+        }
+    </style>
+    <title>Ôn tập</title>
+</head>
+<body>
+    <h1 id="tieu-de">Ôn tập</h1>
+    <div id="icon">
+        <a href="../index.html" id="trang-chu"><i class="fa-solid fa-house"></i>Trang chủ</a>
+        <a href="" id="on-tap"><i class="fa-solid fa-graduation-cap"></i>Ôn tập</a>
+    </div>
+    <div class="but-ton-main">
+        <a href="./tieng-anh/tieng-anh.html" target="_blank"><input class="contain contain1" type="button" value="Tiếng Anh"></a>
+        <a href="./lich-su/lich-su.html" target="_blank"><input class="contain contain2" type="button" value="Lịch sử"></a>
+        <a href="./vat-ly/vat-ly.html" target="_blank"><input class="contain contain3" type="button" value="Vật lý"></a>
+        <a href="./tin-hoc/tinhoc.html" target="_blank"><input class="contain contain4" type="button" value="Tin học"></a>
+        <a href="./dia-ly/dia-ly.html" target="_blank"><input class="contain contain5" type="button" value="Địa lý"></a>
+        <a href="./gdktpt/gdktpl.html" target="_blank"><input class="contain contain6" type="button" value="Gdkt&pl"></a>
+    </div>
+    <div class="clock">
+        <div class="time" id="time">--:--:--</div>
+        <div class="date" id="date">--/--/----</div>
+    </div>
+    <script src="../dong-ho.js"></script>
+</body>
+</html>
